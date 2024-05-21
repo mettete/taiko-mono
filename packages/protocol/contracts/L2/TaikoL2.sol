@@ -3,7 +3,6 @@ pragma solidity 0.8.24;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-
 import "../common/EssentialContract.sol";
 import "../common/LibStrings.sol";
 import "../libs/LibAddress.sol";
@@ -27,7 +26,7 @@ contract TaikoL2 is EssentialContract {
 
     /// @notice Mapping from L2 block numbers to their block hashes. All L2 block hashes will
     /// be saved in this mapping.
-    mapping(uint256 blockId => bytes32 blockHash) public l2Hashes;
+    mapping(uint256 => bytes32) public l2Hashes;  // Syntax düzeltildi
 
     /// @notice A hash to check the integrity of public inputs.
     /// @dev Slot 2.
