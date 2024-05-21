@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.2.0](https://github.com/taikoxyz/taiko-mono/compare/guardian-prover-health-check-v0.1.0...guardian-prover-health-check-v0.2.0) (2024-05-21)
+
+
+### Features
+
+* **bridge-ui:** release  ([#17071](https://github.com/taikoxyz/taiko-mono/issues/17071)) ([2fa3ae0](https://github.com/taikoxyz/taiko-mono/commit/2fa3ae0b2b2317a467709110c381878a3a9f8ec6))
+* **guardian-prover-health-check:** add indexes ([#17245](https://github.com/taikoxyz/taiko-mono/issues/17245)) ([15e9c13](https://github.com/taikoxyz/taiko-mono/commit/15e9c1339509f15589012baa94c227c2415cdaaa))
+* **guardian-prover-health-check:** add prover address to healthcheck endpoint ([#17246](https://github.com/taikoxyz/taiko-mono/issues/17246)) ([cc718b8](https://github.com/taikoxyz/taiko-mono/commit/cc718b89d0986808930007bacb2ebdff65009f37))
+* **guardian-prover-health-check:** bindings ([#16456](https://github.com/taikoxyz/taiko-mono/issues/16456)) ([571483a](https://github.com/taikoxyz/taiko-mono/commit/571483a476133f26b43da7a38e4477378295ce78))
+* **guardian-prover-health-check:** check error, return 200 if duplicate ([#16470](https://github.com/taikoxyz/taiko-mono/issues/16470)) ([c93da9c](https://github.com/taikoxyz/taiko-mono/commit/c93da9c180f551072ee85a8ba5a20361b821db56))
+* **guardian-prover-health-check:** gp address routes instead of id ([#16843](https://github.com/taikoxyz/taiko-mono/issues/16843)) ([4870fb2](https://github.com/taikoxyz/taiko-mono/commit/4870fb29433b4e0c534920ed39e43c999100cf9e))
+* **relayer:** check event status one more time before sending call ([#17120](https://github.com/taikoxyz/taiko-mono/issues/17120)) ([6ef421a](https://github.com/taikoxyz/taiko-mono/commit/6ef421a00c48f10faafa3034467ce0d8838cecd0))
+
+
+### Bug Fixes
+
+* **eventindexer:** add some startup logs ([#17276](https://github.com/taikoxyz/taiko-mono/issues/17276)) ([c170497](https://github.com/taikoxyz/taiko-mono/commit/c170497d05732a862d7191fc9ffa0be918dd4078))
+* **relayer:** handle retry count manually since it's lost in translation from moving between exchanges ([#16922](https://github.com/taikoxyz/taiko-mono/issues/16922)) ([13cec87](https://github.com/taikoxyz/taiko-mono/commit/13cec87c716d93c5e9d1abfbc65eefeadfbaefdb))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/relayer-v0.11.0...relayer-v0.12.0) (2023-10-18)
 
 
